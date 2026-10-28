@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyurtma berish - Xorazm taomlari</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body id="bosh">
+
+    <header class="header">
+        <div class="container nav">
+            <h1>Xorazm taomlari</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Bosh sahifa</a></li>
+                    <li><a href="batafsil.html">Taomlar</a></li>
+                    <li><a href="aloqa.html">Buyurtma</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Biz bilan bog‘laning</h2>
+            <p>Xorazm milliy taomlariga buyurtma berish uchun formani to‘ldiring.</p>
+        </section>
+
+        <section class="section">
+            <h2>Buyurtma shakli</h2>
+
+            <form action="#" method="get">
+                <p>
+                    <label for="ism">Ismingiz:</label><br>
+                    <input type="text" id="ism" name="ism"
+                           placeholder="Ismingizni kiriting" required>
+                </p>
+
+                <p>
+                    <label for="telefon">Telefon raqamingiz:</label><br>
+                    <input type="tel" id="telefon" name="telefon"
+                           placeholder="+998 90 123 45 67" required>
+                </p>
+
+                <p>
+                    <label for="taom">Taomni tanlang:</label><br>
+                    <select id="taom" name="taom" required>
+                        <option value="">Taomni tanlang</option>
+                        <option value="Shivit oshi">Shivit oshi</option>
+                        <option value="Go'shtli gumma">Go'shtli gumma</option>
+                        <option value="Xorazm palovi">Xorazm palovi</option>
+                        <option value="Tuxum barak">Tuxum barak</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="soni">Porsiya yoki dona soni:</label><br>
+                    <input type="number" id="soni" name="soni"
+                           min="1" value="1" required>
+                </p>
+
+                <p>
+                    <label for="izoh">Qo‘shimcha izoh:</label><br>
+                    <textarea id="izoh" name="izoh" rows="4"
+                              placeholder="Manzil yoki qo‘shimcha istaklaringiz"></textarea>
+                </p>
+
+                <button class="btn" type="submit">Buyurtmani yuborish</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <h2>Aloqa ma'lumotlari</h2>
+            <p><strong>Hudud:</strong> Xorazm viloyati</p>
+            <p><strong>Yo‘nalish:</strong> Milliy taomlar va buyurtmalar</p>
+            <p>Buyurtma bo‘yicha qo‘shimcha ma'lumot olish uchun sayt egasi bilan bog‘laning.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>Xorazm taomlari</h3>
+            <p>Milliy taomlarimizni kashf eting.</p>
+            <p>&copy; 2026 Xorazm milliy taomlari</p>
+        </div>
+    </footer>
+
+</body>
+</html>
